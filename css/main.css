@@ -74,7 +74,7 @@ p{
 
 section {
 	color: rgba(69, 69, 69, 0.9);
-  height: 768px;
+
   border-bottom: 2px solid gray; 
 }	
 
@@ -98,6 +98,10 @@ footer p{
 
 .gray_style {
     background-color: rgba(51, 51, 68, 0.5);
+}
+
+.white_style{
+    background-color: rgba(255, 255, 255, 0.9);  
 }
 
 .parallax{
@@ -290,8 +294,7 @@ color: #333344;
   line-height: 24px;
   margin: 0 auto 12px;
   width: 90%;
-  color:  #999;
-  //border: #999 1px solid;
+  color:  #2d2d2d;
 }
 
 /*==========  форма обратной связи END ==========*/
@@ -361,7 +364,7 @@ font-size: 18px;
   text-align: center;
   display: inline-block;
   margin-bottom: 25px;
-  min-height: 200px;
+  min-height: 180px;
 }
 
 
@@ -374,7 +377,190 @@ font-size: 18px;
 
 
 
+/*========== Как мы работаем ==========*/
 
+
+.how_we_work {
+position: relative;
+
+}
+.how_we_work h2{
+color: #f0ecec;
+position: relative;
+top: 50px;
+
+}
+.how_we_work p{
+color: #f0ecec;
+
+}
+
+.how_we_work ul{
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+.how_we_work ul li{
+    display: inline-block;
+    width: 18%;
+    vertical-align: top;
+}
+.how_we_work ul li img{
+  width: 120px;
+    display: inline-block;
+}
+/*========== Как мы работаем конец==========*/
+
+/*==========  Отзывы ==========*/
+
+.review {
+  background-color: #fff;
+}
+
+
+/*==========  Отзывы конец ==========*/
+
+/*========== Вопросы  ==========*/
+.question {
+ background-image: url(https://bisonstore.ru/d/606951/d/image_1591.jpg);
+ background-size: 500px;
+ background-repeat: no-repeat;
+    background-position: 75% 50%;
+}
+
+.question p{
+  text-align: center;
+  font-size: 21px; 
+
+}
+
+.buttom_form_box {
+
+}
+
+/* =========== форма обратной связи ============ */
+
+.buttom_form_box form{
+width: 50%;
+margin: auto;
+}
+
+.buttom_form_box button {
+  display: block; 
+  width: 100%; 
+  margin-bottom: 25px; 
+  margin-right: auto;
+  margin-left: auto;
+    color: #333344;
+      height: 35px;
+}
+
+.buttom_form_box input{
+  display: block; 
+  width: 70%; 
+  margin-bottom: 25px; 
+  margin-right: auto;
+  margin-left: auto;
+  height: 35px;
+}
+
+.buttom_form_box input {
+  width: 70%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  height: 50px;
+  line-height: 75px;
+  text-align: center;
+  background: none;
+  color: #f0ecec;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  outline: none;
+  border-bottom: 2px solid #bebebe;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+
+.buttom_form_box input:focus {
+
+  border-bottom: 2px solid #e1b52a;
+color: #333344;
+
+
+}
+
+
+
+.buttom_form_box  .but_order{
+  position: relative;
+  overflow: hidden;
+  font-weight: bold;
+  cursor: pointer;
+  height: 53px;
+  width: 70%;
+  max-width: 550px;
+  margin: auto; 
+  font-size: 21px;
+  margin-top: 30px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #371400;
+  font-weight: 300;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8c335', endColorstr='#fdaa38',GradientType=0 );
+  position: relative;
+  overflow: hidden;
+     
+    background: rgba(0, 0, 0, 0.06);
+    box-shadow: none;
+    font-size: 27px;
+    background: rgba(225, 181, 42, 0.74);
+}
+.buttom_form_box  button.but_order:active {
+  top: 2px;
+  box-shadow: none;
+}
+.buttom_form_box  button.but_order:hover {
+  background-position: -200% 0, 0 0;
+  background: rgba(225, 181, 42, 0.94);
+}
+
+.buttom_form_box input[type="text"] {
+  display: block;
+  line-height: 24px;
+  margin: 0 auto 12px;
+  width: 90%;
+  color:  #2d2d2d;
+}
+
+/*==========  форма обратной связи END ==========*/
+
+/*========== Вопросы конец ==========*/
+/*========== footer ==========*/
+
+.footer {
+
+
+}
+
+.footer h3{
+    font-size: 21px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #f0ecec;
+    text-align: center;
+}
+
+/*========== footer end==========*/
 /*==========КНОПКА ВВЕРХ ==========*/
 
 .to_top {
