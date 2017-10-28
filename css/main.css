@@ -75,7 +75,6 @@ p{
 section {
 	color: rgba(69, 69, 69, 0.9);
 
-  border-bottom: 2px solid gray; 
 }	
 
 p{
@@ -158,14 +157,20 @@ padding-top: 80px;
 
 .slogan_box_p {
   color: orange;
-  font-size: 21px; 
+  font-size: 30px; 
 }
 
 .slogan_h1 {
   position: relative;
-  top: 100px;
+  top: 103px;
+
 }
 
+.slogan_h1 h1{
+
+    font-size: 53px;
+    line-height: 53px;
+}
 
 .arrow {
   position: absolute;
@@ -192,6 +197,10 @@ width: 150px;
 
 .main_form_box p{
     color: #333344;
+}
+
+.main_form_box h3{
+  font-size: 27px
 }
 
 
@@ -262,7 +271,7 @@ color: #333344;
   max-width: 550px;
   margin: auto; 
   font-size: 21px;
-  margin-top: 10px;
+  margin-top: 30px;
   display: block;
   text-align: center;
   text-decoration: none;
@@ -339,9 +348,50 @@ font-size: 21px;
 
 /*========== второй блок конец ==========*/
 
+/*========== блок достижения конец ==========*/
+.orange{
+  color: orange;
+}
+
+.padding_35 {
+ padding: 35px 0px;
+}
+
+.numbers{
+background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/blurry-car-lights-on-highway_wyobtfwbh__F0000.png);
+background-position: 50% 50%;
+background-size: cover;
+background-attachment: fixed;
+
+}
+.numbers h2{
+color: #fff;
+padding-top: 0px;
+}
+
+.numbers ul{
+text-align: center;
+padding-left: 0px;
+  list-style-type: none;
+}
+
+.numbers ul li{
+  width: 24%;
+  display: inline-block;
+  color: #fff;
+}
+
+.numbers ul li p{
+  color: #fff;
+  font-size: 36px;
+}
+
+.numbers ul li span{
+  font-size: 36px;
+}
 
 
-
+/*========== блок достижения конец ==========*/
 
 
 /*========== Блок случаи ==========*/
