@@ -128,6 +128,25 @@ z-index: 10001;
         padding-right: 20px;
 }
 
+.top_line ul li a{
+color: #fff;
+font-size: 19px;
+}
+
+.contact {
+  text-align: right;
+}
+
+.contact a{
+color: #fff;
+text-align: right;
+}
+
+
+.contact_phone{
+font-size: 25px;
+}
+
 .float_l{
 float: left;
 }
@@ -136,7 +155,9 @@ float: left;
   float: right;
 }
 
-
+.main_box{
+  height: 100vh;
+}
 
 .slogan_box {
 padding-top: 80px;
@@ -162,10 +183,14 @@ padding-top: 80px;
 
 .slogan_h1 {
   position: relative;
-  top: 103px;
+ /* top: 103px;*/
+ padding-top: 29%
 
 }
 
+.slogan_box_phone_p {
+ font-size: 27px;
+}
 .slogan_h1 h1{
 
     font-size: 53px;
@@ -190,7 +215,8 @@ width: 150px;
     background-color: rgba(255, 255, 255, 0.8);
     width: 100%;
     color: #f0ecec;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
+    margin-top: 40%;
     padding: 15px;
     text-align: center;
 }
@@ -205,6 +231,11 @@ width: 150px;
 
 
 /* =========== форма обратной связи ============ */
+.main_form_box {
+  padding-bottom: 30px;
+}
+
+
 .main_form_box button {
   display: block; 
   width: 70%; 
@@ -315,10 +346,15 @@ color: #333344;
   position: relative;
   //top: -80px;
   background-color: #fff;
+  background-image: url(https://regnum.ru/uploads/pictures/news/2016/06/30/regnum_picture_14672874833594563_normal.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+
 }
 
 .advantages h2 {
   padding-top: 25px;
+    color: #fff;
 }
 
 
@@ -335,14 +371,18 @@ color: #333344;
   display: inline-block;
   margin-bottom: 25px;
   min-height: 200px;
+  position: relative;
+
 }
 
+
 .advantages ul li img{
-width: 125px;
+width: 115px;
 }
 
 .advantages ul li p{
 font-size: 21px;
+  color: #fff;
 
 }
 
@@ -364,11 +404,11 @@ font-size: 19px;
 
 /*========== блок достижения конец ==========*/
 .orange{
-  color: orange;
+  color: rgba(225, 181, 42, 0.74);
 }
 
 .padding_35 {
- padding: 35px 0px;
+ padding: 35px 0px 55px 0px;
 }
 
 .numbers{
@@ -398,6 +438,7 @@ padding-left: 0px;
 .numbers ul li p{
   color: #fff;
   font-size: 36px;
+  margin-bottom: 0px; 
 }
 
 .numbers ul li span{
@@ -456,7 +497,7 @@ top: 80px;
 }
 .how_we_work p{
 color: #f0ecec;
-
+margin-top:0;
 }
 
 .how_we_work ul{
@@ -471,8 +512,16 @@ color: #f0ecec;
     vertical-align: top;
 }
 .how_we_work ul li img{
-  width: 120px;
+  width: 115px;
     display: inline-block;
+}
+
+
+.how_we_work ul li span{
+    font-size: 26px;
+    font-weight: 900;
+    color: rgba(225, 181, 42, 0.74)
+
 }
 /*========== Как мы работаем конец==========*/
 
