@@ -157,7 +157,7 @@ padding-top: 80px;
 
 .slogan_box_p {
   color: orange;
-  font-size: 30px; 
+  font-size: 17px; 
 }
 
 .slogan_h1 {
@@ -313,7 +313,7 @@ color: #333344;
 
 .advantages {
   position: relative;
-  top: -80px;
+  //top: -80px;
   background-color: #fff;
 }
 
@@ -344,6 +344,20 @@ width: 125px;
 .advantages ul li p{
 font-size: 21px;
 
+}
+
+.advantages_about {
+  height: 500px;
+  background-image: url(http://lennikov.1gb.ru/livejournal/914493a26196_F981/save-on-car-insurance.jpg);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+}
+.advantages_about p{
+font-size: 19px;
+  }
+.advantages_white_style{
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 /*========== второй блок конец ==========*/
