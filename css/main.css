@@ -448,10 +448,33 @@ padding-left: 0px;
 
 /*========== блок достижения конец ==========*/
 
+/*========== Страховые случаи ==========*/
+.insurance {
+
+}
+
+.insurance p{
+text-align: left;
+}
+/*========== Страховые случаи конец ==========*/
+
 
 /*========== Блок случаи ==========*/
 .incident {
 
+}
+
+
+ .incident_about {
+background-image: url(http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/shield-ok-icon.png);
+background-repeat: no-repeat;
+-webkit-background-size: auto;
+background-size: 700px;
+background-position: 30% 50%
+}
+
+.incident_about p {
+  text-align: left;
 }
 
 .incident p{
@@ -469,13 +492,15 @@ padding-left: 0px;
   text-align: center;
   display: inline-block;
   margin-bottom: 25px;
-  min-height: 180px;
+    height: 180px;
+    overflow: hidden;
 }
 
 
 .incident ul li img{
   width: 100%;
-
+  position: relative;
+  top: -15px;
 }
 
 /*========== Блок случаи Конец==========*/
