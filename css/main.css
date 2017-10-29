@@ -351,7 +351,7 @@ color: #333344;
   position: relative;
   //top: -80px;
   background-color: #fff;
-  background-image: url(https://regnum.ru/uploads/pictures/news/2016/06/30/regnum_picture_14672874833594563_normal.jpg);
+  background-image: url(img/second_bg.jpg);
   background-size: cover;
   background-attachment: fixed;
 
@@ -394,7 +394,7 @@ font-size: 21px;
 
 .advantages_about {
   height: 500px;
-  background-image: url(http://lennikov.1gb.ru/livejournal/914493a26196_F981/save-on-car-insurance.jpg);
+  background-image: url(img/about_bg.jpg);
   background-size: 500px;
   background-repeat: no-repeat;
   background-position: 11% 89%;
@@ -422,7 +422,7 @@ font-size: 19px;
 }
 
 .numbers{
-background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/blurry-car-lights-on-highway_wyobtfwbh__F0000.png);
+background-image: url(img/numbers_bg.png);
 background-position: 50% 50%;
 background-size: cover;
 background-attachment: fixed;
@@ -482,7 +482,7 @@ text-align: left;
 }
 
  .incident_about {
-background-image: url(http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/shield-ok-icon.png);
+background-image: url(img/incident_bg.png);
 background-repeat: no-repeat;
 -webkit-background-size: auto;
 background-size: 700px;
@@ -643,7 +643,7 @@ margin-top:0;
 }
 
 .line_form {
-background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/blurry-car-lights-on-highway_wyobtfwbh__F0000.png);
+background-image: url(img/numbers_bg.png);
 background-position: 50% 50%;
 background-size: cover;
 background-attachment: fixed;
@@ -735,7 +735,7 @@ color: #333344;
 
 /*========== Вопросы  ==========*/
 .question {
- background-image: url(https://bisonstore.ru/d/606951/d/image_1591.jpg);
+ background-image: url(img/q_bg.jpg);
  background-size: 500px;
  background-repeat: no-repeat;
     background-position: 75% 50%;
