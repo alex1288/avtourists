@@ -506,6 +506,19 @@ background-position: 30% 50%
 /*========== Блок случаи Конец==========*/
 
 
+.square{
+      border: 3px solid orange;
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(45deg);
+    width: 133px;
+    margin: auto;
+    height: 138px;
+}
+}
+
 
 /*========== Как мы работаем ==========*/
 
