@@ -635,11 +635,34 @@ margin-top: 35px;
 }
 
 .line_form input{
-width: 80%;
-height: 50px;
+  width: 80%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  height: 50px;
+  line-height: 75px;
+  text-align: center;
+  background: none;
+  color: #f0ecec;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  outline: none;
+  background-color: #fff;
+  border: 2px solid #bebebe;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
 }
 
+.line_form input:focus {
 
+  border: 2px solid #e1b52a;
+color: #333344;
+
+
+}
 
 .line_form .but_order{
   position: relative;
