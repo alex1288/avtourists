@@ -164,7 +164,10 @@ padding-top: 80px;
     color: #f0ecec;
 
 }
-
+.slogan_box_p {
+  color: rgba(225, 181, 42, 0.74);
+  font-size: 17px; 
+}
 .slogan_box p{
 
     color: #f0ecec;
@@ -176,10 +179,7 @@ padding-top: 80px;
   color: orange;
 }
 
-.slogan_box_p {
-  color: orange;
-  font-size: 17px; 
-}
+
 
 .slogan_h1 {
   position: relative;
@@ -391,7 +391,7 @@ font-size: 21px;
   background-image: url(http://lennikov.1gb.ru/livejournal/914493a26196_F981/save-on-car-insurance.jpg);
   background-size: 500px;
   background-repeat: no-repeat;
-  background-position: 30% 50%;
+  background-position: 11% 89%;
 }
 .advantages_about p{
 font-size: 19px;
