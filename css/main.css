@@ -360,6 +360,7 @@ color: #333344;
 
 .advantages ul {
   list-style-type: none;
+  padding-left: 0px;
 
 }
 
@@ -468,7 +469,12 @@ text-align: left;
 .incident {
 
 }
-
+.top_80{
+  top: 80px; 
+  background-color: #fff; 
+  position: relative; 
+  z-index: 10;
+}
 
  .incident_about {
 background-image: url(http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/shield-ok-icon.png);
@@ -476,6 +482,10 @@ background-repeat: no-repeat;
 -webkit-background-size: auto;
 background-size: 700px;
 background-position: 30% 50%
+}
+
+.incident_about h2{
+  padding-top: 25px;
 }
 
 .incident_about p {
@@ -488,6 +498,8 @@ background-position: 30% 50%
 
 .incident ul{
   list-style-type: none;
+      text-align: center;
+    padding-left: 0px;
 }
 
 .incident ul li{
@@ -693,7 +705,9 @@ color: #333344;
     background: rgba(225, 181, 42, 0.74);
 }
 
-
+.line_form .but_order:hover{
+     background: rgba(225, 181, 42, 0.94); 
+}
 
 
 /*==========  Отзывы ==========*/
@@ -1016,25 +1030,89 @@ color: #333344;
 
 .incident_about {
 
-    background-position: -111% 13%;
+    background-position: -67% 13%;
+    }
+
+    .line_form input, .line_form .but_order{
+width: 90%;
+
     }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
+.incident_about h2 {
+  padding-top: 50px;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.buttom_form_box form {
+    width: 75%;
+    }
+
+    .incident ul li {
+
+    height: 172px;
+}
+.slogan_h1 h1 {
+    font-size: 55px;
+}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+.slogan_h1{
+  padding-top: 0px;
+}
+.main_form_box {
+    margin-top: 0%;
+}
 
+.advantages_about{
+  background-image:none;
+}
+.numbers ul li span {
+  font-size: 18px;
+}
 
+.numbers ul li p {
+  font-size: 30px;
+}
+
+.top_80{
+  top: 0px; 
+}
+.incident ul li {
+  width: 64%;
+}
+.incident ul li {
+  height: 214px;
+}
+.incident_about {
+  background-image: none;
+}
+.line_form input, .line_form .but_order {
+
+    margin-bottom: 20px;
+}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
-
+.incident ul li {
+    width: 95%;
+}
+.buttom_form_box form {
+    width: 95%;
+}
+.advantages ul li {
+    width: 48%;
+}
 }
 
 /* Custom, iPhone Retina */
