@@ -34,42 +34,42 @@ $(document).ready(function() {
 	//Плавный скролл до блока .div по клику на .scroll
 	//Документация: https://github.com/flesler/jquery.scrollTo
 
-	$("#top").click(function () {
-		$("body, html").animate({
-			scrollTop: 0
-		}, 800);
-		return false;
-	});
-	
 
-	$(".scroll").click(function() {
-		$("body, html").animate("#advantages", 800 );
-	});
+	// $("#goto").click(function() {
+	// 	$.scrollTo($("#advantages"), 800, {
+	// 		offset: -90
+	// 	});
+	// 	return false;
+	// });
 
-	$(".scroll").click(function() {
-		$.scrollTo($("#incident"), 800, {
-			offset: -90
-		});
-	});
+	// $("#goto2").click(function() {
+	// 	$.scrollTo($("#incident"), 800, {
+	// 		offset: -90
+	// 	});
+	// 	return false;
+	// });
 
 
-	$(".scroll").click(function() {
-		$.scrollTo($("#how_we_work"), 800, {
-			offset: -90
-		});
-	});
+	// $("#goto3").click(function() {
+	// 	$.scrollTo($("#how_we_work"), 800, {
+	// 		offset: -90
+	// 	});
+	// 	return false;
+	// });
 
-	$(".scroll").click(function() {
-		$.scrollTo($("#review"), 800, {
-			offset: -90
-		});
-	});
+	// $("#goto4").click(function() {
+	// 	$.scrollTo($("#review"), 800, {
+	// 		offset: -90
+	// 	});
+	// 	return false;
+	// });
 
-	$(".scroll").click(function() {
-		$.scrollTo($("#contact_box"), 800, {
-			offset: -90
-		});
-	});
+	// $("#goto5").click(function() {
+	// 	$.scrollTo($("#contact_box"), 800, {
+	// 		offset: -90
+	// 	});
+	// 	return false;
+	// });
 
 
 	//Каруселька
