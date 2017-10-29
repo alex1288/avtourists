@@ -229,12 +229,11 @@ $(document).ready(function() {
 
 
 
-	// анонс записи
+	// scroll to записи
 
 
 
-
-	// анонс записи конец
+	// scroll to конец
 
 });
 
