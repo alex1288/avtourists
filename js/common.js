@@ -33,21 +33,40 @@ $(document).ready(function() {
 
 	//Плавный скролл до блока .div по клику на .scroll
 	//Документация: https://github.com/flesler/jquery.scrollTo
+
+	$("#top").click(function () {
+		$("body, html").animate({
+			scrollTop: 0
+		}, 800);
+		return false;
+	});
+	
+
 	$(".scroll").click(function() {
-		$.scrollTo($("#price"), 800, {
+		$("body, html").animate("#advantages", 800 );
+	});
+
+	$(".scroll").click(function() {
+		$.scrollTo($("#incident"), 800, {
+			offset: -90
+		});
+	});
+
+
+	$(".scroll").click(function() {
+		$.scrollTo($("#how_we_work"), 800, {
 			offset: -90
 		});
 	});
 
 	$(".scroll").click(function() {
-		$.scrollTo($("#works"), 800, {
+		$.scrollTo($("#review"), 800, {
 			offset: -90
 		});
 	});
 
-
 	$(".scroll").click(function() {
-		$.scrollTo($("#reviews"), 800, {
+		$.scrollTo($("#contact_box"), 800, {
 			offset: -90
 		});
 	});
@@ -231,9 +250,9 @@ $(document).ready(function() {
 
 	// scroll to записи
 
-
-
 	// scroll to конец
+
+
 
 });
 
