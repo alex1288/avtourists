@@ -35,42 +35,6 @@ $(document).ready(function() {
 	//Документация: https://github.com/flesler/jquery.scrollTo
 
 
-	// $("#goto").click(function() {
-	// 	$.scrollTo($("#advantages"), 800, {
-	// 		offset: -90
-	// 	});
-	// 	return false;
-	// });
-
-	// $("#goto2").click(function() {
-	// 	$.scrollTo($("#incident"), 800, {
-	// 		offset: -90
-	// 	});
-	// 	return false;
-	// });
-
-
-	// $("#goto3").click(function() {
-	// 	$.scrollTo($("#how_we_work"), 800, {
-	// 		offset: -90
-	// 	});
-	// 	return false;
-	// });
-
-	// $("#goto4").click(function() {
-	// 	$.scrollTo($("#review"), 800, {
-	// 		offset: -90
-	// 	});
-	// 	return false;
-	// });
-
-	// $("#goto5").click(function() {
-	// 	$.scrollTo($("#contact_box"), 800, {
-	// 		offset: -90
-	// 	});
-	// 	return false;
-	// });
-
 
 	//Каруселька
 	//Документация: 
@@ -233,6 +197,12 @@ $(document).ready(function() {
 
 	   	   jQuery(function($){
    $("#phone2").mask("+7 (999) 999-99-99");
+   });
+	   	   	   	   jQuery(function($){
+   $("#phone3").mask("+7 (999) 999-99-99");
+   });
+	   	   	   	   	   	   	   	   jQuery(function($){
+   $("#phone4").mask("+7 (999) 999-99-99");
    });
 
 	   // Прелоадер
