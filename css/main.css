@@ -526,8 +526,8 @@ background-position: 30% 50%
 .incident_img .incident_img_about{
   position: absolute;
   top: 10%;
-  left: 10px;
-  width: 320px;
+  //left: 10px;
+  width: 100%;
 }
 
 
@@ -917,6 +917,59 @@ color: #333344;
     }
 /*========== Прелоадер ==========*/
 
+/*Мобильное меню*/
+.m-nav{
+    font-size: 35px;
+    cursor: pointer;
+    color: #fff;
+    top: 20px;
+    position: relative;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*Мобильное меню*/
 
                       /*Мобильная версия*/
 
@@ -924,8 +977,47 @@ color: #333344;
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+.float_l {
+    float: left;
+    font-size: 20px;
+}
+.top_line ul li {
+    padding-right:15px;
+}
 
+.slogan_h1 h1 {
+    font-size: 43px;
+    }
+    .main_form_box h3 {
+    font-size: 24px;
+  }
 
+  .advantages_about {
+
+    background-position: -32% 121%;
+  }
+
+  .numbers ul li span {
+    font-size: 27px;
+}
+
+.numbers ul li p {
+
+    font-size: 40px;
+
+}
+
+.incident ul li {
+    width: 48%;
+
+    height: 231px;
+
+}
+
+.incident_about {
+
+    background-position: -111% 13%;
+    }
 }
 
 /* Medium Devices, Desktops */
