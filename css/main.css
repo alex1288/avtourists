@@ -175,8 +175,11 @@ padding-top: 80px;
 }
 
 .slogan_box span {
-  font-size: 21px;
-  color: orange;
+    font-size: 37px;
+    color: rgba(204, 32, 32, 0.91);
+    font-weight: 700;
+    background-color: rgba(255,255,255,.7);
+    padding: 0px 15px;
 }
 
 
@@ -234,7 +237,9 @@ width: 150px;
 .main_form_box {
   padding-bottom: 30px;
 }
-
+.form_margin_top {
+  margin-top: 38px;
+}
 
 .main_form_box button {
   display: block; 
@@ -995,6 +1000,18 @@ color: #333344;
     float: left;
     font-size: 20px;
 }
+
+.main_form_box {
+
+    margin-top: 30%;
+    }
+    .slogan_h1 {
+
+    padding-top: 29%;
+}
+.incident_about p {
+    font-size: 18px;
+}
 .top_line ul li {
     padding-right:15px;
 }
@@ -1041,7 +1058,9 @@ width: 90%;
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+.incident_about p {
+    font-size: 16px;
+}
 .incident_about h2 {
   padding-top: 50px;
 }
@@ -1100,6 +1119,9 @@ width: 90%;
 
     margin-bottom: 20px;
 }
+.advantages ul li p {
+    font-size: 16px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -1113,10 +1135,38 @@ width: 90%;
 .advantages ul li {
     width: 48%;
 }
+.slogan_h1 h1 {
+    font-size: 50px;
+}.owl-carousel .owl-item img {
+
+    width: 100%;
+  }
+  .question p {
+
+    font-size: 16px;
+}
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+.main_form_box h3 {
+    font-size: 16px;
+}
+.slogan_h1 h1 {
+    font-size: 44px;
+}
+.advantages_about p {
+    font-size: 16px;
+}
+.incident_about h2 {
+    padding-top: 0px;
+}
+.main_form_box .but_order {
 
+    margin-top: 15px;
+    }
+    .incident ul li {
+    height: 140px;
+}
 }
 
