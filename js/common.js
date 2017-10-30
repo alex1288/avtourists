@@ -70,19 +70,19 @@ $(document).ready(function() {
 	
 	//Аякс отправка форм
 	//Документация: http://api.jquery.com/jquery.ajax/
-	$("form").submit(function() {
-		$.ajax({
-			type: "GET",
-			url: "mail.php",
-			data: $("form").serialize()
-		}).done(function() {
-			alert("Спасибо за заявку!");
-			setTimeout(function() {
-				$.fancybox.close();
-			}, 1000);
-		});
-		return false;
-	});
+	// $("form").submit(function() {
+	// 	$.ajax({
+	// 		type: "GET",
+	// 		url: "mail.php",
+	// 		data: $("form").serialize()
+	// 	}).done(function() {
+	// 		alert("Спасибо за заявку!");
+	// 		setTimeout(function() {
+	// 			$.fancybox.close();
+	// 		}, 1000);
+	// 	});
+	// 	return false;
+	// });
 
 
 
@@ -186,7 +186,46 @@ $(document).ready(function() {
 		return false;
 	}); 
 
+$("#form2").submit(function() {
+		$.ajax({
+			type: "GET",
+			url: "mail.php",
+			data: $("#form2").serialize()
+		}).done(function() {
+			alert("Спасибо за заявку!");
+			setTimeout(function() {
+				$.magnificPopup.close();
+			}, 1000);
+		});
+		return false;
+	}); 
 
+$("#form3").submit(function() {
+		$.ajax({
+			type: "GET",
+			url: "mail.php",
+			data: $("#form3").serialize()
+		}).done(function() {
+			alert("Спасибо за заявку!");
+			setTimeout(function() {
+				$.magnificPopup.close();
+			}, 1000);
+		});
+		return false;
+	}); 
+$("#form4").submit(function() {
+		$.ajax({
+			type: "GET",
+			url: "mail.php",
+			data: $("#form4").serialize()
+		}).done(function() {
+			alert("Спасибо за заявку!");
+			setTimeout(function() {
+				$.magnificPopup.close();
+			}, 1000);
+		});
+		return false;
+	}); 
 
 
 	$(".popap").magnificPopup();		

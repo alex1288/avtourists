@@ -3,5 +3,5 @@ Disallow:
 
 User-agent: Yandex
 Disallow:
-Host: mdesigning.ru/
-Sitemap:  mdesigning.ru/sitemap.xml
+Host: autourists.ru/
+Sitemap:  autourists.ru/sitemap.xml
