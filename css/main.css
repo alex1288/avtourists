@@ -104,10 +104,17 @@ footer p{
 }
 
 .parallax{
-  height: 768px;
+  height: 100vh;
   background-position: 50% 50%;
 }
 
+.parallax_how{
+
+  background-position: 50% 50%;
+}
+.gray_style_100vh {
+    height: 100vh;
+}
 
 .top_line {
 position: fixed;
@@ -349,11 +356,13 @@ color: #333344;
 
 .advantages {
   position: relative;
-  //top: -80px;
   background-color: #fff;
   background-image: url(img/second_bg.jpg);
   background-size: cover;
   background-attachment: fixed;
+ background-position: 50% 50%; 
+
+
 
 }
 
@@ -366,7 +375,7 @@ color: #333344;
 .advantages ul {
   list-style-type: none;
   padding-left: 0px;
-
+text-align: center;
 }
 
 .advantages ul li {
@@ -665,7 +674,7 @@ margin-top: 35px;
   padding: 0 10px;
   box-sizing: border-box;
   height: 50px;
-  line-height: 75px;
+  line-height: 25px;
   text-align: center;
   background: none;
   color: #f0ecec;
@@ -729,8 +738,16 @@ color: #333344;
 .review {
   background-color: #fff;
 }
+.write_rev{
+  text-align: center;
+}
+.write_rev a{
 
+}
 
+textarea {
+  min-height: 150px;
+}
 /*==========  Отзывы конец ==========*/
 
 /*========== Вопросы  ==========*/
@@ -935,10 +952,10 @@ color: #333344;
 
     #page-preloader .spinner {
       width: 100px;
-      height: 296px;
+      height: 100px;
       position: absolute;
-      left: 45%;
-      top: 30%;
+      left: 50%;
+      top: 40%;
       background: url(img/loader4.gif) no-repeat 50% 50%;
       margin: -16px 0 0 -16px;
       background-size: cover;
@@ -1277,6 +1294,9 @@ width: 90%;
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+.parallax, .main_box, .gray_style_100vh{
+  height: 700px;
+}
 .incident ul li {
     width: 95%;
 }
@@ -1285,6 +1305,14 @@ width: 90%;
 }
 .advantages ul li {
     width: 48%;
+}
+.line_form {
+  background-size: 1400px;
+      background-position: 0% 0%;
+}
+
+.advantages{
+ //background-size: 1400px;
 }
 .slogan_h1 h1 {
     font-size: 50px;
@@ -1296,21 +1324,29 @@ width: 90%;
 
     font-size: 16px;
 }
-.mfp-content form{
-  width: 400px;
+.mfp-content form {
+    width: 355px;
+        padding: 10px 15px;
 }
 .advantages ul li img {
     width: 90px;
 }
+    #page-preloader .spinner {
+
+      left: 43%;
+      }
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+  .parallax, .main_box, .gray_style_100vh{
+  height: 650px;
+}
 .main_form_box h3 {
     font-size: 16px;
 }
 .slogan_h1 h1 {
-    font-size: 44px;
+    font-size: 40px;
 }
 .advantages_about p {
     font-size: 16px;
@@ -1336,5 +1372,9 @@ width: 90%;
 .mfp-content h2 {
     margin-top: 0px;
 }
+    #page-preloader .spinner {
+
+      left: 43%;
+      }
 }
 

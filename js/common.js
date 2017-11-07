@@ -34,7 +34,19 @@ $(document).ready(function() {
 	//Плавный скролл до блока .div по клику на .scroll
 	//Документация: https://github.com/flesler/jquery.scrollTo
 
+	$("#menu").on("click","a", function (event) {
+		//отменяем стандартную обработку нажатия по ссылке
+		event.preventDefault();
 
+		//забираем идентификатор бока с атрибута href
+		var id  = $(this).attr('href'),
+
+		//узнаем высоту от начала страницы до блока на который ссылается якорь
+			top = $(id).offset().top;
+		
+		//анимируем переход на расстояние - top за 1500 мс
+		$('body,html').animate({scrollTop: top}, 1500);
+	});
 
 	//Каруселька
 	//Документация: 
@@ -228,6 +240,32 @@ $("#form4").submit(function() {
 	}); 
 
 
+$("#form4").submit(function() {
+		$.ajax({
+			type: "GET",
+			url: "mail.php",
+			data: $("#form4").serialize()
+		}).done(function() {
+			alert("Спасибо за заявку!");
+			setTimeout(function() {
+				$.magnificPopup.close();
+			}, 1000);
+		});
+		return false;
+	}); 
+$("#form5").submit(function() {
+		$.ajax({
+			type: "GET",
+			url: "mail.php",
+			data: $("#form5").serialize()
+		}).done(function() {
+			alert("Спасибо за заявку!");
+			setTimeout(function() {
+				$.magnificPopup.close();
+			}, 1000);
+		});
+		return false;
+	}); 
 	$(".popap").magnificPopup();		
 
 	   jQuery(function($){
